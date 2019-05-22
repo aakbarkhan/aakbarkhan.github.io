@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* heading*/
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 5px;
+    color: white;
+}
+.heading { 
+    text-align: right;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+body{
+    background-image: url("../media/back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn {
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0;
+  }
+  .btn-alt {
+    border: 2px solid #dfe2e5;
+    padding: 10px 30px;
+  }
+  .col {
+      background: yellow;
+  }
+  h1 {
+      text-align: center;
+      color: white;
+      font-size: 100px;
+      margin-top: 10px;
+  }
+  span {
+      color:pink;
+      height: 100px;
+      width: 100px;
+      padding: 140px;
+  }
+  .bla {
+    color: black;
+  }
+  p {
+      color: white;
+      font-size: 40px;
+      text-align: center;
+      margin: 50px;
+  }
+  .face {
+      background: blue;
+      
+  }
+  .others {
+      margin-left: 450px;
+      
+  }
+  .bottom {
+      margin-top: 100px;
+      margin-left: 450px;
+  }
+  footer {
+    color: white;
+    text-align: center;
+    margin: 20px;
+  }
+  img {
+      height: 100px;
+      width: 100px;
+      padding: 30px;
+      border: 1px solid yellow;
+      background: #ECC033;
+      border-radius: 50%;
+      margin-left: 45%;
+      margin-top:200px;
+
+  }
+  .trans {
+    background:none;
+  }
